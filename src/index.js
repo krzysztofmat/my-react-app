@@ -1,31 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
-import Car from './Car';
-import Garage from './Garage';
-import Football from './Football';
-import Goal from './Goal';
-import GoalAndVersion from './GoalAndVersion';
-import GoalAndTernary from './GoalAndTernary';
-import GarageList from './GarageList';
-import Form from './Form';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Layout from "./pages/Layout";
+import Blogs from "./pages/Blogs";
+import Contact from "./pages/Contact";
+import NoPage from "./pages/NoPage";
 
-
-const myFirstElement = <h1>Hello React!!!</h1>;
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {myFirstElement}
-    <Car />
-    <Garage />
-    <Football />
-    <Goal />
-    <Goal isGoal={true} />
-    <GoalAndVersion isGoal={true} />
-    <GoalAndTernary />
-    <GarageList />
-    <Form />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
