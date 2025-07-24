@@ -8,6 +8,7 @@ import GarageList from "./../GarageList";
 import Form from "./../Form";
 import TodosWrapperProblematic from "../TodosWrapperProblematic";
 import TodosWrapper from "../TodosWrapper";
+import FavouriteColor from "../FavouriteColor";
 
 const myFirstElement = <h1>Hello React!!!</h1>;
 
@@ -35,6 +36,7 @@ const Home = () => {
       <Form />
       <TodosWrapperProblematic />
       <TodosWrapper />
+      <FavouriteColor />
     </div>
   );
 };
