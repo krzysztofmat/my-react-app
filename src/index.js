@@ -7,6 +7,7 @@ import Layout from "./pages/Layout";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+import "./App.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

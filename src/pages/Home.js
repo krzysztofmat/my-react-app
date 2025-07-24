@@ -12,9 +12,17 @@ import TodosWrapper from "../TodosWrapper";
 const myFirstElement = <h1>Hello React!!!</h1>;
 
 const Home = () => {
+  const myStyle = {
+    color: "white",
+    backgroundColor: "DodgerBlue",
+    padding: "10px",
+    fontFamily: "Sans-Serif"
+  };
+  
   return (
-    <div style={{ "padding-bottom": '10rem' }}>
-      <h1>Home</h1>
+    <div style={{ paddingBottom: "10rem" }}>
+      <h1 style={{color: "red", backgroundColor: "lightblue"}}>Home</h1>
+      <h2 style={myStyle}>SubHome</h2>
       {myFirstElement}
       <Car />
       <Garage />
