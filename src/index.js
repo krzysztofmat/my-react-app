@@ -8,6 +8,7 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import "./App.css";
+import "./my-scss.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
