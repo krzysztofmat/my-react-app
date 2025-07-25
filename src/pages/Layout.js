@@ -13,7 +13,10 @@ const Layout = () => {
           </li>
           <li>
             <Link to="/contact">Contact</Link>
-          </li>                    
+          </li>
+          <li>
+            <Link to="/use-effect-examples">useEffectExamples</Link>
+          </li>                              
         </ul>
       </nav>
 
