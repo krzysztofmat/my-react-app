@@ -16,7 +16,10 @@ const Layout = () => {
           </li>
           <li>
             <Link to="/use-effect-examples">useEffectExamples</Link>
-          </li>                              
+          </li>
+          <li>
+            <Link to="/use-context-examples">useContextExamples</Link>
+          </li>                                         
         </ul>
       </nav>
 

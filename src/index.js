@@ -10,6 +10,7 @@ import NoPage from "./pages/NoPage";
 import "./App.css";
 import "./my-scss.scss";
 import UseEffectExamples from "./pages/UseEffectExamples";
+import UseContextExamples from "./pages/UseContextExamples";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,7 @@ root.render(
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
           <Route path="use-effect-examples" element={<UseEffectExamples />} />
+          <Route path="use-context-examples" element={<UseContextExamples />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
