@@ -19,7 +19,10 @@ const Layout = () => {
           </li>
           <li>
             <Link to="/use-context-examples">useContextExamples</Link>
-          </li>                                         
+          </li>
+          <li>
+            <Link to="/use-ref-examples">useRefExamples</Link>
+          </li>                                                   
         </ul>
       </nav>
 

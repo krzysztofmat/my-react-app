@@ -10,6 +10,7 @@ function UseRefExample1() {
 
   return (
     <>
+      <h2>Does not cause re-renders</h2>  
       <input
         type="text"
         value={inputValue}
