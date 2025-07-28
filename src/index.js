@@ -15,6 +15,7 @@ import UseRefExamples from "./pages/UseRefExamples";
 import UseReducerExamples from "./pages/UseReducerExamples";
 import UseCallbackExamples from "./pages/UseCallbackExamples";
 import UseMemoExamples from "./pages/UseMemoExamples";
+import UseFetchExamples from "./pages/UseFetchExamples";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -31,6 +32,7 @@ root.render(
           <Route path="use-reducer-examples" element={<UseReducerExamples />} />
           <Route path="use-callback-examples" element={<UseCallbackExamples />} />
           <Route path="use-memo-examples" element={<UseMemoExamples />} />
+          <Route path="use-fetch-examples" element={<UseFetchExamples />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
