@@ -22,7 +22,10 @@ const Layout = () => {
           </li>
           <li>
             <Link to="/use-ref-examples">useRefExamples</Link>
-          </li>                                                   
+          </li>
+          <li>
+            <Link to="/use-reducer-examples">useReducerExamples</Link>
+          </li>                                                             
         </ul>
       </nav>
 

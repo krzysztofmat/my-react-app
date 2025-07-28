@@ -12,6 +12,7 @@ import "./my-scss.scss";
 import UseEffectExamples from "./pages/UseEffectExamples";
 import UseContextExamples from "./pages/UseContextExamples";
 import UseRefExamples from "./pages/UseRefExamples";
+import UseReducerExamples from "./pages/UseReducerExamples";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,6 +26,7 @@ root.render(
           <Route path="use-effect-examples" element={<UseEffectExamples />} />
           <Route path="use-context-examples" element={<UseContextExamples />} />
           <Route path="use-ref-examples" element={<UseRefExamples />} />
+          <Route path="use-reducer-examples" element={<UseReducerExamples />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
