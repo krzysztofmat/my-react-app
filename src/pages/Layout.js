@@ -25,7 +25,10 @@ const Layout = () => {
           </li>
           <li>
             <Link to="/use-reducer-examples">useReducerExamples</Link>
-          </li>                                                             
+          </li>
+          <li>
+            <Link to="/use-callback-examples">useCallbackExamples</Link>
+          </li>                                                                        
         </ul>
       </nav>
 
