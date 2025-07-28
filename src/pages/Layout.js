@@ -28,7 +28,10 @@ const Layout = () => {
           </li>
           <li>
             <Link to="/use-callback-examples">useCallbackExamples</Link>
-          </li>                                                                        
+          </li>
+          <li>
+            <Link to="/use-memo-examples">useMemoExamples</Link>
+          </li>                                                                                  
         </ul>
       </nav>
 
